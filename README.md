@@ -1,3 +1,5 @@
+# This repository is deprecated and will be removed soon. The new location is here: https://github.com/apache/incubator-openwhisk/tree/master/performance
+
 # :electric_plug: Apache OpenWhisk - Performance Tests
 A few simple but efficient test suites for determining the maximum throughput and end-user latency of the Apache OpenWhisk system.
 

@@ -11,7 +11,7 @@ sudo service docker restart
 git clone --depth 1 https://github.com/openwhisk/openwhisk.git
 
 # install ansible
-pip install --user ansible==2.3.0.0
+pip install --user ansible==2.4.2.0
 
 cd openwhisk/ansible
 ANSIBLE_CMD="ansible-playbook -i environments/local -e docker_image_prefix=openwhisk -e docker_registry=docker.io/ -e limit_invocations_per_minute=999999 -e limit_invocations_concurrent=999999 -e limit_invocations_concurrent_system=999999"
